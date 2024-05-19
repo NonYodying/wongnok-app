@@ -8,5 +8,8 @@
     ],
     "env": {
       "APP_MODULE": "main:app"
-    }
+    },
+    "scripts": {
+        "build": "uvicorn main:app"
+      }
   }
